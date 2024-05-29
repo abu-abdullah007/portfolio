@@ -1,0 +1,15 @@
+.main-content{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-section{
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: yellow;
+}
