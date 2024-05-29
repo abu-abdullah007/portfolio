@@ -148,6 +148,10 @@ nav{
     font-size: 1.5rem;
 }
 
+#show-list-nav i{
+    color: black;
+}
+
 
 
 
@@ -168,7 +172,7 @@ nav{
 }
 
 .theme nav .right-text a, #show-list-nav i{
-    color: white;
+    color: rgb(116, 108, 108);
 }
 
 /*****************/
