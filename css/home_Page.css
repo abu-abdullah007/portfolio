@@ -106,7 +106,7 @@ main{
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 520px) {
     .main-para-start h1{
         font-size: 8rem;
     }
