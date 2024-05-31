@@ -1,5 +1,12 @@
 @import url(fonts.css);
 
+main{
+    background: linear-gradient(rgba(255, 255, 255, 0.726),rgba(255, 255, 255, 0.726)),url(../media/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-content{
     height: 90vh;
     width: 100vw;
@@ -22,13 +29,22 @@
 }
 
 .main-para-start h1{
-    font-size: 10rem;
+    font-size: 12rem;
     font-family: Reggae;
     font-weight: 100;
+    transition: 1.3s ease-out;
+    background: url(../media/text-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .main-para-start #myName{
     font-size: 4rem;
+    transition: 1s;
 }
 
 .main-para-start button{
@@ -38,6 +54,28 @@
     outline: none;
     border: solid 2px green;
 }
+
+.main-para-start button:active{
+    transform: scale(0.96);
+}
+
+.extra-show{
+    transition: 3s;
+    opacity: 0;
+}
+
+
+.main-para-start h1.back{
+    transform: translateX(-500%);
+}
+
+.main-para-start #myName.sideGo{
+    transform: translateX(500%);
+}
+
+
+
+
 
 /* Home Page Dark Theme */
 
@@ -49,4 +87,42 @@
     text-shadow: 0 0px 2px rgb(255, 255, 255);
 }
 
+.theme main{
+    background: linear-gradient(rgba(0, 0, 0, 0.26),rgba(5, 5, 5, 0.26)),url(../media/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.theme nav *{
+    color: white;
+}
+
+.theme #list{
+    color: white;
+}
+
 /************************/
+
+
+
+@media screen and (max-width: 414px) {
+    .main-para-start h1{
+        font-size: 8rem;
+    }
+
+    .hidden-nav-center{
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-para-start h1{
+        font-size: 4rem;
+    }
+
+    .main-para-start #myName{
+        font-size: 1rem;
+    }
+}

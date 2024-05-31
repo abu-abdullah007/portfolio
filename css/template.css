@@ -50,7 +50,7 @@ nav{
 }
 
 .right-text a:hover{
-    color: rgba(9, 248, 9, 0.575);
+    color: rgba(39, 61, 39, 0.575);
     transition: 0.1s;
 }
 
@@ -90,7 +90,7 @@ nav{
     flex-direction: column;
     margin-top: 20px;
     transform: translateX(-500%);
-    transition: transform 0.5s;
+    transition: transform 0.2s;
 }
 
 .hidden-nav-center a{
@@ -107,7 +107,7 @@ nav{
 }
 
 .hidden-nav-center a:hover{
-    color: rgba(9, 248, 9, 0.575);
+    color: rgba(13, 230, 13, 0.575);
     transition: 0.1s;
 }
 
@@ -127,16 +127,16 @@ nav{
     animation-timing-function: cubic-bezier(.33,-0.39,.67,.79);
 }
 
-
 .cross{
-    padding: 10px;
     font-size: 1.3rem;
     display: flex;
     justify-content: right;
+    max-height: 4px;
 }
 
 .cross i{
     margin-right: 20px;
+    transform: translateY(10px);
 }
 
 .cross i:hover{
@@ -171,9 +171,9 @@ nav{
     box-shadow: 0 0px 10px rgba(231, 231, 40, 0.822);
 }
 
-.theme nav .right-text a, #show-list-nav i{
+/* .theme nav .right-text a, #show-list-nav i{
     color: rgb(116, 108, 108);
-}
+} */
 
 /*****************/
 
