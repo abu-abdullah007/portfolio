@@ -7,3 +7,8 @@
     font-family: Reggae;
     src: url(../fonts/ReggaeOne-Regular.ttf);
 }
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
